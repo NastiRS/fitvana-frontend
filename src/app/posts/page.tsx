@@ -3,6 +3,7 @@ import Link from 'next/link'
 import MainLayout from '@/components/layouts/MainLayout'
 import FeaturedPost from '@/components/molecules/FeaturedPost'
 import HorizontalPost from '@/components/molecules/HorizontalPost'
+import FontDemo from '@/components/atoms/FontDemo'
 
 // Datos de ejemplo
 const featuredPosts = [
@@ -89,6 +90,11 @@ export default function BlogPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Demo de la fuente Charter */}
+      <div className="px-4 py-5">
+        <FontDemo />
       </div>
 
       {/* Sección de artículos destacados */}
